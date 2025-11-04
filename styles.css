@@ -818,6 +818,8 @@ body {
     border-radius: 20px;
     padding: 40px 30px;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
 }
 
 .plano-card:hover {
@@ -916,6 +918,7 @@ body {
 .plano-features {
     list-style: none;
     margin-bottom: 30px;
+    flex-grow: 1;
 }
 
 .plano-features li {
@@ -935,6 +938,11 @@ body {
 .plano-features i.fa-times {
     color: var(--gray-400);
     font-size: 18px;
+}
+
+.plano-card .btn {
+    margin-top: auto;
+    width: 100%;
 }
 
 /* ================================

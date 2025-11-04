@@ -1267,7 +1267,7 @@ body {
 
 .footer-contact li {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 12px;
     color: var(--gray-300);
 }
@@ -1275,6 +1275,13 @@ body {
 .footer-contact i {
     color: var(--secondary-color);
     font-size: 18px;
+    margin-top: 2px;
+}
+
+.footer-contact span {
+    color: var(--gray-300);
+    line-height: 1.6;
+    font-size: 14px;
 }
 
 .footer-bottom {

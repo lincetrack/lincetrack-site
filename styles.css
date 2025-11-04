@@ -490,6 +490,42 @@ body {
     line-height: 1.6;
 }
 
+.sobre-intro {
+    margin-bottom: 30px;
+}
+
+.sobre-intro p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: var(--gray-700);
+    text-align: left;
+}
+
+.sobre-features-list {
+    margin-bottom: 30px;
+}
+
+.sobre-features-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sobre-features-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    font-size: 17px;
+    color: var(--gray-700);
+    font-weight: 500;
+}
+
+.sobre-features-list li i {
+    color: var(--secondary-color);
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
 .sobre-message {
     margin-top: 40px;
     padding: 30px;

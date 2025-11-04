@@ -1313,13 +1313,13 @@ body {
     }
 
     .logo-img {
-        width: 180px;
-        height: 80px;
+        width: 240px;
+        height: 110px;
     }
 
     .navbar {
         padding: 10px 20px;
-        min-height: 70px;
+        min-height: 90px;
     }
 
     .hamburger {
